@@ -1,4 +1,4 @@
-# DL_P102_G3
+# DL_P103_G2
 Emotion Based Face Generation GAN
 
 dataset: https://www.kaggle.com/jonathanoheix/face-expression-recognition-dataset 
