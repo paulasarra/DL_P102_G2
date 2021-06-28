@@ -14,7 +14,7 @@ Also, the fact that the two models that GANs use are set up in a kind of “game
 The dataset of this project contains 28811 black and white images and it is showing facial expressions. 
 In order to classify the images into the categories we have used an emotions classifier which is an already trained model we found on github. Our first idea was to apply the classifier to the original dataset and then repeat the process after training the GAN,with the fake images.  But unfortunately this has not been possible and later on you will see why.
 
-However, we have used the emotions classifier to group the images of the original dataset by the 7 different emotions, and obtained an accuracy of 90%. After the classification we have found an irregular amount of images in each of the categories but most of the emotions have more than 3000 3THOUSAND images.
+However, we have used the emotions classifier to group the images of the original dataset by the 7 different emotions, and obtained an accuracy of 90%. After the classification we have found an irregular amount of images in each of the categories but most of the emotions have more than 3000 images.
 
 In this project we will be using the surprise sub dataset to compare the results that we will be obtaining in the different variations of the GAN, as we think is the one providing the best results.
 
