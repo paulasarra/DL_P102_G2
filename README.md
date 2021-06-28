@@ -27,6 +27,7 @@ So in practice, how will it be this process of learning? The discriminator will 
 And it is important to know that we have to be careful because if the discriminator gets too good from the beginning of the training, so it performs and distinguishes perfectly too early, then its loss will be zero and thus there will be nothing to backpropagate, no gradient, and as a consequence the generator would have no way to learn and improve. 
 
 ## Models and results
+You can see the architecture of every different model in the slides 
 ### Model 1
 
 As we know, in a traditional CNN we use pooling layers to downsample images. But for the generator, we need something like an inverse operation of this pooling layer. As Mireia explained, the generator network needs a layer to transform from a small input to a large and more detailed image output. 
@@ -76,7 +77,7 @@ ONE aspect that could be increasing the probability of having a mode collapse is
 
 All in all, we have seen that GANs are powerful but complex and costly in time.
 
-That is all...
+
 
 
 
